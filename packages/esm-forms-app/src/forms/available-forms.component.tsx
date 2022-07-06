@@ -76,6 +76,8 @@ const AvailableForms: React.FC<AvailableFormsProps> = ({ patientUuid, patient })
     [currentVisit, patient, patientUuid],
   );
 
+  console.log(availableForms);
+
   if (isLoading) {
     return <InlineLoading description={t('loading', 'Loading...')} />;
   }
