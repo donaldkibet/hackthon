@@ -1,1 +1,7 @@
-{}
+{
+  "errorLoadingForms": "Error",
+  "forms": "Forms",
+  "loading": "Loading...",
+  "searchForAForm": "Search for a form",
+  "searchForForm": "Search for form"
+}
