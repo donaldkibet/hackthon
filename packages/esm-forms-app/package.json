@@ -1,0 +1,49 @@
+{
+  "name": "@kenyaemr/esm-forms-app",
+  "version": "3.1.0",
+  "description": "Kenya EMR forms module OpenMRS SPA",
+  "browser": "dist/kenyaemr-esm-forms-app.js",
+  "main": "src/index.ts",
+  "source": true,
+  "license": "MPL-2.0",
+  "scripts": {
+    "start": "openmrs develop",
+    "serve": "webpack serve --mode=development",
+    "debug": "npm run serve",
+    "build": "webpack --mode production",
+    "analyze": "webpack --mode=production --env.analyze=true",
+    "lint": "eslint src --ext ts,tsx",
+    "typescript": "tsc",
+    "extract-translations": "i18next 'src/**/*.component.tsx'"
+  },
+  "browserslist": [
+    "extends browserslist-config-openmrs"
+  ],
+  "keywords": [
+    "openmrs"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "bugs": {},
+  "dependencies": {
+    "@carbon/charts-react": "^0.41.14",
+    "@carbon/icons-react": "^10.18.0",
+    "carbon-components-react": "^7.25.0",
+    "d3": "^5.16.0",
+    "lodash-es": "^4.17.15"
+  },
+  "peerDependencies": {
+    "@openmrs/esm-framework": "3.x",
+    "@openmrs/esm-patient-common-lib": "3.x",
+    "carbon-components": "10.x",
+    "carbon-icons": "7.x",
+    "react": "16.x",
+    "react-i18next": "11.x",
+    "react-router-dom": "5.x",
+    "rxjs": "6.x"
+  }
+}
