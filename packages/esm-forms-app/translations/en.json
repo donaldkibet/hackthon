@@ -1,7 +1,8 @@
 {
   "errorLoadingForms": "Error",
   "forms": "Forms",
-  "loading": "Loading...",
+  "formSearchHint": "Try searching for the form using an alternative name or keyword",
+  "noFormsFound": "Sorry, no forms have been found",
   "searchForAForm": "Search for a form",
   "searchForForm": "Search for form"
 }
